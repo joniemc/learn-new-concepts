@@ -1,0 +1,111 @@
+{
+	"variables": [],
+	"info": {
+		"name": "hn.com.capitole.practica",
+		"_postman_id": "b76dff64-77c2-bf55-a4be-28dc95bd8213",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/prices/v2/2020-06-14 00:00:00/35455/1",
+			"request": {
+				"url": "http://localhost:8080/prices/v2/2020-06-14 00:00:00/35455/1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\":\"jonie_admin\",\"userpassword\":\"admin\"}"
+				},
+				"description": "TEST #1"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/prices/v2/2020-06-14 16:00:00/35455/1",
+			"request": {
+				"url": "http://localhost:8080/prices/v2/2020-06-14 16:00:00/35455/1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\":\"jonie_admin\",\"userpassword\":\"admin\"}"
+				},
+				"description": "TEST #2"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/prices/v2/2020-06-14 21:00:00/35455/1",
+			"request": {
+				"url": "http://localhost:8080/prices/v2/2020-06-14 21:00:00/35455/1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\":\"jonie_admin\",\"userpassword\":\"admin\"}"
+				},
+				"description": "TEST #3"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/prices/v2/2020-06-15 10:00:00/35455/1",
+			"request": {
+				"url": "http://localhost:8080/prices/v2/2020-06-15 10:00:00/35455/1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\":\"jonie_admin\",\"userpassword\":\"admin\"}"
+				},
+				"description": "TEST #4"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/prices/v2/2020-06-16 21:00:00/35455/1",
+			"request": {
+				"url": "http://localhost:8080/prices/v2/2020-06-16 21:00:00/35455/1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\":\"jonie_admin\",\"userpassword\":\"admin\"}"
+				},
+				"description": "TEST #5"
+			},
+			"response": []
+		}
+	]
+}
